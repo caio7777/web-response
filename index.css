@@ -211,7 +211,7 @@ body::-webkit-scrollbar{
 
 @media screen and (max-width:1000px){
     .cert-2{
-        width: 150px;
+        padding-bottom: 15px;
     }
 }
 
