@@ -2,9 +2,15 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+   
 }
 ul li{
     list-style: none;
+}
+body{
+     font-family: 'Inter', sans-serif;
+    /* font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif; */
 }
 body::-webkit-scrollbar{
     display: none;
@@ -211,6 +217,9 @@ body::-webkit-scrollbar{
 
 @media screen and (max-width:1000px){
     .cert-2{
+        padding-bottom: 15px;
+    }
+    .img-cert-1{
         padding-bottom: 15px;
     }
 }
