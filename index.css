@@ -1,0 +1,255 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul li{
+    list-style: none;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+/* configuraçao do layout-grid */
+.container{
+    display: grid;
+    grid-template-columns: 60vw 40vw;
+    grid-template-rows: max-content max-content 40vh max-content max-content;
+    grid-template-areas: 
+    'header header header '
+    'bloco-1 bloco-2 bloco-2'
+    'bloco-1 bloco-2 bloco-2'
+    'bloco-3 bloco-2 bloco-2'
+    'bloco-4 bloco-4 bloco-4';
+
+}
+
+#header{
+    grid-area: header;
+    background-color:black;
+    margin: 5px;
+    box-shadow: 5px 5px  9px rgb(183, 241, 241);
+    
+}
+.bloco-1{
+    grid-area: bloco-1;
+    background-color:#eeeee4;
+    margin: 5px;
+    box-shadow: 5px 5px  9px rgba(10, 0, 0,0.5);
+    
+    border-radius: 10px;
+    padding: 10px;
+}
+.bloco-2{
+    grid-area: bloco-2;
+    background-color:  #eeeee4;
+    margin: 5px;
+    box-shadow: 5px 5px  9px rgba(10, 0, 0,0.5);
+    border-radius: 10px;
+    padding: 10px;
+}
+.bloco-3{
+    grid-area: bloco-3;
+    background-color:  #eeeee4;
+    margin: 5px;
+    box-shadow: 5px 5px  9px rgba(0, 0, 0,0.5);
+    border-radius: 10px;
+    padding: 10px;
+}
+.bloco-4{
+    grid-area: bloco-4;
+    background-color:#eeeee4;
+    margin: 5px;
+    box-shadow: 5px 5px  9px rgba(0, 0, 0,0.5);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+/*-------------------------------------------------------------------------------------------*/
+
+/* configuraçao do harder*/
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+/*internal header*/
+.img-perfil{
+    width: 120px;
+    border-radius: 50%;
+    box-shadow: 7px 7px 9px rgba(0, 0, 0,0.5);
+}
+
+.img-perfil:hover{
+   scale: 1.5;
+}
+.box-perfil{
+    display: flex;
+    align-items: center;
+    background-color: #eeeee4;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid white;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.box-icon{
+    text-align: center;
+}
+.box-icon .icon{
+    box-shadow: 7px 7px 9px rgba(0, 0, 0,0.5);
+}
+.perfil-name{
+    color: black;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+.icon{
+    width: 40px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px rgb(249, 250, 249);
+    margin-right: 10px;
+    padding: 5px;
+    margin: 10px;
+}
+.icon:hover{
+    scale: 1.2;
+}
+/* config botao contate-me */
+.box-ct{
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 30px;
+    right: 30px;
+    background-color: white;
+    border-radius: 30px;
+    border: 2px solid black;
+    box-shadow: 0px 3px  9px rgb(183, 241, 241);
+}
+
+.box-ct:hover{
+    scale: 1.2;
+}
+
+.box-ct a{
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    text-shadow: 5px 5px 9px rgba(0, 0, 0, 0.5);
+  
+    
+}
+.icon-7{
+    width: 30px;
+    height: 30px;
+}
+
+/* config do bloco-1 */
+
+.bloco-1{
+    display: flex;
+    flex-direction: column;
+   
+}
+/* config do bo-certificado */
+.box-certificado{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.text-sobre{
+    font-size: 120%;
+}
+
+/* config do bloco-2 */
+.bloco-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.box-inertno-bl-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-designer{
+    width: 100%;
+    
+}
+
+/* config do bloco-3 */
+
+.bloco-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+.box-bloco-3-1-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.box-bloco-3-1 h3{
+    margin-bottom: 20px;
+}
+
+/* midia queryes*/
+
+@media screen and (max-width:1000px){
+    .cert-2{
+        width: 150px;
+    }
+}
+
+
+@media screen and (max-width:500px){
+    .box-certificado{
+        justify-content: center;
+    }
+    /* .bloco-2{
+        justify-content: center;
+    } */
+
+    .box-bloco-3-1-2{
+        justify-content: center;
+    }
+}
+
+/* config mobile*/
+
+@media screen and (max-width:360px){
+    .container{
+        display: grid;
+        grid-template-columns: 60vw 40vw;
+        grid-template-rows: max-content max-content max-content max-content max-content;
+        grid-template-areas: 
+        'header header header'
+        'bloco-1 bloco-1 bloco-1'
+        'bloco-2 bloco-2 bloco-2'
+        'bloco-3 bloco-3 bloco-3'
+        'bloco-4 bloco-4 bloco-4';
+    
+    }
+    .bloco-2{
+       height: max-content;
+    }
+}
+
+.bloco-4{
+    display: flex;
+    justify-content: space-between;
+}
