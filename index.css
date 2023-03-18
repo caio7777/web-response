@@ -247,6 +247,11 @@ body::-webkit-scrollbar{
     .bloco-2{
        height: max-content;
     }
+
+    #position-img{
+        padding-right: 20px;
+
+    }
 }
 
 .bloco-4{
