@@ -19,7 +19,7 @@ body::-webkit-scrollbar{
 .main{
     display: grid;
     grid-template-columns: 60vw 40vw;
-    grid-template-rows: max-content max-content 40vh max-content max-content;
+    grid-template-rows: max-content max-content max-content max-content max-content;
     grid-template-areas: 
     'header header header '
     'bloco-1 bloco-2 bloco-2'
@@ -225,7 +225,7 @@ body::-webkit-scrollbar{
 }
 
 
-@media screen and (max-width:500px){
+@media screen and (max-width:700px){
     .box-certificado{
         justify-content: center;
     }
@@ -254,7 +254,7 @@ body::-webkit-scrollbar{
     
     }
     .bloco-2{
-       height: max-content;
+        height: max-content;
     }
 
     #position-img{
