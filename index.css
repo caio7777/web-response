@@ -216,9 +216,7 @@ body::-webkit-scrollbar{
 /* midia queryes*/
 
 @media screen and (max-width:1000px){
-    .cert-2{
-        padding-bottom: 15px;
-    }
+
     .img-cert-1{
         padding-bottom: 15px;
     }
@@ -241,21 +239,19 @@ body::-webkit-scrollbar{
 /* config mobile*/
 
 @media screen and (max-width:360px){
-    .container{
+    .main{
         display: grid;
         grid-template-columns: 60vw 40vw;
         grid-template-rows: max-content max-content max-content max-content max-content;
         grid-template-areas: 
-        'header header header'
+        'header header header '
         'bloco-1 bloco-1 bloco-1'
         'bloco-2 bloco-2 bloco-2'
         'bloco-3 bloco-3 bloco-3'
         'bloco-4 bloco-4 bloco-4';
     
     }
-    .bloco-2{
-        height: max-content;
-    }
+
 
     #position-img{
         padding-right: 20px;
@@ -266,4 +262,19 @@ body::-webkit-scrollbar{
 .bloco-4{
     display: flex;
     justify-content: space-between;
+}
+
+@media screen and (max-width:850px){
+    .main{
+        display: grid;
+        grid-template-columns: 60vw 40vw;
+        grid-template-rows: max-content max-content max-content max-content max-content;
+        grid-template-areas: 
+        'header header header '
+        'bloco-1 bloco-1 bloco-1'
+        'bloco-2 bloco-2 bloco-2'
+        'bloco-3 bloco-3 bloco-3'
+        'bloco-4 bloco-4 bloco-4';
+    
+    }
 }
