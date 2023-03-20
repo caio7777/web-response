@@ -106,9 +106,7 @@ body::-webkit-scrollbar{
 .box-icon{
     text-align: center;
 }
-.box-icon .icon{
-    box-shadow: 7px 7px 9px rgba(0, 0, 0,0.5);
-}
+
 .perfil-name{
     color: black;
     margin-left: 20px;
@@ -118,28 +116,12 @@ body::-webkit-scrollbar{
 .icon{
     width: 40px;
     border-radius: 50%;
-    box-shadow: 3px 3px 5px rgb(249, 250, 249);
-    margin-right: 10px;
-    padding: 5px;
-    margin: 10px;
-}
-.icon1{
-    width: 40px;
-    border-radius: 50%;
-    box-shadow: 3px 3px 5px rgb(249, 250, 249);
+    box-shadow: 7px 7px 9px rgba(0, 0, 0,0.5);
     margin-right: 10px;
     padding: 5px;
     margin: 10px;
 }
 
-.icon2{
-    width: 40px;
-    border-radius: 50%;
-    box-shadow: 3px 3px 5px rgb(249, 250, 249);
-    margin-right: 10px;
-    padding: 5px;
-    margin: 10px;
-}
 .icon:hover{
     scale: 1.2;
 }

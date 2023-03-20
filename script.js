@@ -9,23 +9,23 @@ const img1 = document
 const sound2 = new Audio("./85599__jankoehl__splash01.wav");
 
 const img2 = document
-  .querySelector(".icon")
-  .addEventListener("mouseover", () => {
+  .querySelector('.icon')
+  .addEventListener('click', () => {
     sound2.play();
   });
 
   const sound3 = new Audio("./85599__jankoehl__splash01.wav");
 
 const img3 = document
-  .querySelector(".icon1")
+  .querySelector('.icon')
   .addEventListener("mouseover", () => {
-    sound2.play();
+    sound3.play();
   });
 
   const sound4 = new Audio("./85599__jankoehl__splash01.wav");
 
 const img4 = document
-  .querySelector(".icon2")
+  .querySelector('.icon')
   .addEventListener("mouseover", () => {
-    sound2.play();
+    sound4.play();
   });
