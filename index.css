@@ -263,11 +263,12 @@ body::-webkit-scrollbar{
     
     }
 
-
-    #position-img{
-        padding-right: 20px;
-
+    .box-certificado{
+        justify-content: center;
     }
+
+
+ 
 }
 
 .bloco-4{
