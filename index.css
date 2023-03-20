@@ -113,7 +113,7 @@ body::-webkit-scrollbar{
     margin-top: 20px;
     
 }
-.icon{
+#icon-1{
     width: 40px;
     border-radius: 50%;
     box-shadow: 7px 7px 9px rgba(0, 0, 0,0.5);
@@ -121,8 +121,30 @@ body::-webkit-scrollbar{
     padding: 5px;
     margin: 10px;
 }
+#icon-2{
+    width: 40px;
+    border-radius: 50%;
+    box-shadow: 7px 7px 9px rgba(0, 0, 0,0.5);
+    margin-right: 10px;
+    padding: 5px;
+    margin: 10px;
+}
+#icon-3{
+    width: 40px;
+    border-radius: 50%;
+    box-shadow: 7px 7px 9px rgba(0, 0, 0,0.5);
+    margin-right: 10px;
+    padding: 5px;
+    margin: 10px;
+}
+#icon-1:hover{
+    scale: 1.2;
+}
+#icon-2:hover{
+    scale: 1.2;
+}
 
-.icon:hover{
+#icon-3:hover{
     scale: 1.2;
 }
 /* config botao contate-me */
