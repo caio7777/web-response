@@ -190,7 +190,7 @@ body::-webkit-scrollbar{
 .box-certificado{
     display: flex;
     justify-content: space-between;
-   align-items:flex-end;
+    align-items:flex-end;
     margin-top: 20px;
     flex-wrap: wrap;
     
@@ -287,10 +287,8 @@ body::-webkit-scrollbar{
 
     .box-certificado{
         justify-content: center;
+        gap: 10px;
     }
-
-
- 
 }
 
 .bloco-4{
