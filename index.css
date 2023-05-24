@@ -252,7 +252,7 @@ body::-webkit-scrollbar{
 
 @media screen and (max-width:700px){
     .box-certificado{
-        justify-content: space-between;
+        justify-content: space-evenly;
        
     }
     .box-certificado img{
