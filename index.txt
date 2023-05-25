@@ -1,1 +1,2 @@
 o que é o git um margin?
+fazendo pull de alteraçoes do remoto para o local!
